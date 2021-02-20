@@ -2,7 +2,7 @@
   "name": "convict-documentation-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/vidhill/convict-documentation-generator/issues"
   },
-  "homepage": "https://github.com/vidhill/convict-documentation-generator#readme"
+  "homepage": "https://github.com/vidhill/convict-documentation-generator#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
 }
